@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CS Swim — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; max-width: 760px; margin: 0 auto; padding: 32px 20px 80px;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8e8; background: #141414; }
+    h1, h2 { color: #fff; }
+    .box { background: #1e1e1e; border-color: #333; }
+    hr { border-color: #333; }
+  }
+  h1 { font-size: 1.9rem; margin-bottom: .2em; }
+  h2 { font-size: 1.25rem; margin-top: 2em; }
+  .updated { color: #666; font-size: .9rem; margin-top: 0; }
+  .box { background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 8px; padding: 14px 18px; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #ddd; font-size: .95rem; }
+  @media (prefers-color-scheme: dark) { th, td { border-color: #333; } }
+  th { font-weight: 600; }
+  hr { margin: 3.5em 0; border: none; border-top: 1px solid #ddd; }
+  code { background: rgba(127,127,127,.15); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+</style>
+</head>
+<body>
+
+<h1>CS Swim — Privacy Policy</h1>
+<p class="updated">Last updated: 7 August 2026</p>
+
+<p>CS Swim is a swim-training app for iPhone. This policy explains what data the app
+accesses, where it is stored, and the one case in which data leaves your device.</p>
+
+<div class="box">
+<strong>Summary:</strong> CS Swim has no servers and no user accounts. We do not collect,
+receive, or have access to any of your data. Everything stays on your iPhone — except when
+you personally choose to use the optional AI Coach feature, described in section 3.
+</div>
+
+<h2>1. Health data (Apple Health / HealthKit)</h2>
+
+<p>With your permission, CS Swim reads the following from Apple Health:</p>
+
+<table>
+  <tr><th>Data</th><th>Why</th></tr>
+  <tr><td>Swimming workouts</td><td>To list and analyse your training sessions</td></tr>
+  <tr><td>Swimming distance</td><td>Totals, weekly goals, pace calculation</td></tr>
+  <tr><td>Heart rate</td><td>Average/max heart rate and the in-workout chart</td></tr>
+  <tr><td>Swimming stroke count</td><td>Stroke totals and SWOLF efficiency</td></tr>
+  <tr><td>Active energy burned</td><td>Calories per workout</td></tr>
+  <tr><td>Water temperature</td><td>Shown when recorded by Apple Watch Ultra</td></tr>
+</table>
+
+<p>CS Swim only <strong>reads</strong> this data — it never writes to Apple Health, and never
+modifies or deletes anything there. All processing happens locally on your iPhone.</p>
+
+<p>Health data is <strong>never</strong> used for advertising, marketing, or data mining, and is
+never sold or shared with data brokers.</p>
+
+<p>You can revoke access at any time in <em>Settings → Privacy &amp; Security → Health → CS Swim</em>.</p>
+
+<h2>2. Data stored on your device</h2>
+
+<p>The following is saved locally on your iPhone and is never transmitted to us:</p>
+
+<ul>
+  <li>Your name, date of birth, gender and language preference (entered during onboarding)</li>
+  <li>Your weekly distance goal</li>
+  <li>Pool names you type in yourself (e.g. "City Aquatic Center")</li>
+  <li>Your Anthropic API key, if you choose to add one — stored in the iOS Keychain, marked
+      "this device only" so it is never included in backups or synced to iCloud</li>
+</ul>
+
+<p>Deleting the app removes all of this data.</p>
+
+<h2>3. AI Coach (optional — data leaves your device)</h2>
+
+<div class="box">
+<strong>This is the only feature that sends data off your iPhone.</strong> It is off by default
+and only works if you supply your own Anthropic API key.
+</div>
+
+<p>If you add an Anthropic (Claude) API key and tap <em>Generate analysis</em>, CS Swim sends
+the following to Anthropic's API (<code>api.anthropic.com</code>) to produce that analysis:</p>
+
+<ul>
+  <li>Your first name and age</li>
+  <li>Up to your 8 most recent swim workouts: date, distance, duration, average pace,
+      average heart rate and calories</li>
+  <li>Your weekly distance goal and current week's total</li>
+</ul>
+
+<p>This includes health-related information. It is sent <strong>only</strong> at the moment you
+explicitly request an analysis, is used <strong>only</strong> to generate that coaching feedback
+for you, and is transmitted over an encrypted HTTPS connection.</p>
+
+<p>Anthropic's handling of this data is governed by their own privacy policy and by the terms of
+the API account whose key you provide:
+<a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.
+CS Swim's developer never sees this data.</p>
+
+<p>If you never add an API key, no data ever leaves your iPhone.</p>
+
+<h2>4. Reports you export</h2>
+
+<p>PDF reports and shareable workout images are generated entirely on your device. They go
+wherever you choose to send them through the standard iOS share sheet. Nothing is uploaded
+automatically.</p>
+
+<h2>5. Analytics and tracking</h2>
+
+<p>CS Swim contains <strong>no</strong> analytics, no advertising, no tracking SDKs, and no
+third-party trackers of any kind. We do not use cookies or device identifiers for tracking.</p>
+
+<h2>6. Children</h2>
+
+<p>CS Swim is not directed at children under 13 and does not knowingly collect data from them.</p>
+
+<h2>7. Changes to this policy</h2>
+
+<p>If this policy changes, the updated version will be published at this address with a new
+"last updated" date.</p>
+
+<h2>8. Contact</h2>
+
+<p>Questions about this policy: <a href="mailto:csswmin@gmail.com">csswmin@gmail.com</a></p>
+
+<hr>
+
+<h1>CS Swim — Política de Privacidade</h1>
+<p class="updated">Última atualização: 7 de agosto de 2026</p>
+
+<p>O CS Swim é um app de treino de natação para iPhone. Esta política explica quais dados o app
+acessa, onde ficam armazenados e o único caso em que dados saem do seu aparelho.</p>
+
+<div class="box">
+<strong>Resumo:</strong> o CS Swim não tem servidores nem contas de usuário. Não coletamos,
+recebemos nem temos acesso a nenhum dado seu. Tudo permanece no seu iPhone — exceto quando
+você escolhe usar o recurso opcional de Treinador IA, descrito na seção 3.
+</div>
+
+<h2>1. Dados de saúde (Apple Saúde / HealthKit)</h2>
+
+<p>Com a sua permissão, o CS Swim lê os seguintes dados do app Apple Saúde:</p>
+
+<table>
+  <tr><th>Dado</th><th>Para quê</th></tr>
+  <tr><td>Treinos de natação</td><td>Listar e analisar suas sessões</td></tr>
+  <tr><td>Distância nadada</td><td>Totais, metas semanais e cálculo de ritmo</td></tr>
+  <tr><td>Frequência cardíaca</td><td>FC média/máxima e o gráfico do treino</td></tr>
+  <tr><td>Braçadas</td><td>Totais e eficiência SWOLF</td></tr>
+  <tr><td>Calorias ativas</td><td>Gasto calórico por treino</td></tr>
+  <tr><td>Temperatura da água</td><td>Exibida quando registrada pelo Apple Watch Ultra</td></tr>
+</table>
+
+<p>O CS Swim apenas <strong>lê</strong> esses dados — nunca grava no Apple Saúde e nunca altera
+ou apaga nada por lá. Todo o processamento acontece localmente no seu iPhone.</p>
+
+<p>Dados de saúde <strong>nunca</strong> são usados para publicidade, marketing ou mineração de
+dados, e nunca são vendidos ou compartilhados com corretoras de dados.</p>
+
+<p>Você pode revogar o acesso a qualquer momento em
+<em>Ajustes → Privacidade e Segurança → Saúde → CS Swim</em>.</p>
+
+<h2>2. Dados guardados no seu aparelho</h2>
+
+<p>O seguinte fica salvo localmente no seu iPhone e nunca é transmitido para nós:</p>
+
+<ul>
+  <li>Seu nome, data de nascimento, gênero e idioma (informados no onboarding)</li>
+  <li>Sua meta semanal de distância</li>
+  <li>Nomes de piscina que você mesmo digita (ex.: "Clube Pinheiros")</li>
+  <li>Sua chave de API da Anthropic, caso você opte por adicionar uma — guardada no Keychain do
+      iOS, marcada como "somente neste dispositivo", de modo que nunca entra em backups nem
+      sincroniza com o iCloud</li>
+</ul>
+
+<p>Apagar o app remove todos esses dados.</p>
+
+<h2>3. Treinador IA (opcional — aqui dados saem do aparelho)</h2>
+
+<div class="box">
+<strong>Este é o único recurso que envia dados para fora do seu iPhone.</strong> Ele vem
+desativado e só funciona se você fornecer sua própria chave de API da Anthropic.
+</div>
+
+<p>Se você adicionar uma chave de API da Anthropic (Claude) e tocar em <em>Gerar análise</em>,
+o CS Swim envia o seguinte para a API da Anthropic (<code>api.anthropic.com</code>) para
+produzir essa análise:</p>
+
+<ul>
+  <li>Seu primeiro nome e sua idade</li>
+  <li>Até os 8 treinos mais recentes: data, distância, duração, ritmo médio,
+      frequência cardíaca média e calorias</li>
+  <li>Sua meta semanal e o total da semana atual</li>
+</ul>
+
+<p>Isso inclui informações relacionadas à saúde. O envio ocorre <strong>somente</strong> no
+momento em que você pede a análise explicitamente, é usado <strong>somente</strong> para gerar
+esse retorno para você, e trafega por conexão criptografada HTTPS.</p>
+
+<p>O tratamento desses dados pela Anthropic é regido pela política de privacidade deles e pelos
+termos da conta de API cuja chave você fornecer:
+<a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.
+O desenvolvedor do CS Swim nunca tem acesso a esses dados.</p>
+
+<p>Se você nunca adicionar uma chave de API, nenhum dado sai do seu iPhone.</p>
+
+<h2>4. Relatórios exportados</h2>
+
+<p>Relatórios em PDF e imagens de treino para compartilhar são gerados inteiramente no seu
+aparelho. Eles vão apenas para onde você escolher enviar pela folha de compartilhamento padrão
+do iOS. Nada é enviado automaticamente.</p>
+
+<h2>5. Análise de uso e rastreamento</h2>
+
+<p>O CS Swim <strong>não</strong> contém ferramentas de analytics, publicidade, SDKs de
+rastreamento nem rastreadores de terceiros de qualquer tipo. Não usamos cookies nem
+identificadores de dispositivo para rastreamento.</p>
+
+<h2>6. Crianças</h2>
+
+<p>O CS Swim não é direcionado a menores de 13 anos e não coleta dados dessa faixa etária
+conscientemente.</p>
+
+<h2>7. Alterações nesta política</h2>
+
+<p>Se esta política mudar, a versão atualizada será publicada neste mesmo endereço com uma nova
+data de "última atualização".</p>
+
+<h2>8. Contato</h2>
+
+<p>Dúvidas sobre esta política:
+<a href="mailto:csswmin@gmail.com">csswmin@gmail.com</a></p>
+
+<hr>
+
+<h1>CS Swim — Política de Privacidad</h1>
+<p class="updated">Última actualización: 7 de agosto de 2026</p>
+
+<p>CS Swim es una app de entrenamiento de natación para iPhone. Esta política explica a qué datos
+accede la app, dónde se almacenan y el único caso en el que los datos salen de tu dispositivo.</p>
+
+<div class="box">
+<strong>Resumen:</strong> CS Swim no tiene servidores ni cuentas de usuario. No recopilamos,
+recibimos ni tenemos acceso a ninguno de tus datos. Todo permanece en tu iPhone — excepto cuando
+tú decides usar la función opcional de Entrenador IA, descrita en la sección 3.
+</div>
+
+<h2>1. Datos de salud (Apple Salud / HealthKit)</h2>
+
+<p>Con tu permiso, CS Swim lee los siguientes datos de Apple Salud:</p>
+
+<table>
+  <tr><th>Dato</th><th>Para qué</th></tr>
+  <tr><td>Entrenamientos de natación</td><td>Listar y analizar tus sesiones</td></tr>
+  <tr><td>Distancia nadada</td><td>Totales, objetivos semanales y cálculo del ritmo</td></tr>
+  <tr><td>Frecuencia cardíaca</td><td>FC media/máxima y el gráfico del entrenamiento</td></tr>
+  <tr><td>Brazadas</td><td>Totales y eficiencia SWOLF</td></tr>
+  <tr><td>Calorías activas</td><td>Gasto calórico por entrenamiento</td></tr>
+  <tr><td>Temperatura del agua</td><td>Se muestra cuando la registra el Apple Watch Ultra</td></tr>
+</table>
+
+<p>CS Swim solo <strong>lee</strong> estos datos — nunca escribe en Apple Salud y nunca modifica
+ni elimina nada allí. Todo el procesamiento ocurre localmente en tu iPhone.</p>
+
+<p>Los datos de salud <strong>nunca</strong> se usan para publicidad, marketing ni minería de
+datos, y nunca se venden ni se comparten con intermediarios de datos.</p>
+
+<p>Puedes revocar el acceso en cualquier momento en
+<em>Ajustes → Privacidad y seguridad → Salud → CS Swim</em>.</p>
+
+<h2>2. Datos guardados en tu dispositivo</h2>
+
+<p>Lo siguiente se guarda localmente en tu iPhone y nunca se nos transmite:</p>
+
+<ul>
+  <li>Tu nombre, fecha de nacimiento, género e idioma (introducidos durante la configuración
+      inicial)</li>
+  <li>Tu objetivo semanal de distancia</li>
+  <li>Los nombres de piscina que escribes tú mismo (p. ej. "Centro Acuático Municipal")</li>
+  <li>Tu clave de API de Anthropic, si decides añadir una — guardada en el Llavero de iOS,
+      marcada como "solo este dispositivo", por lo que nunca se incluye en copias de seguridad
+      ni se sincroniza con iCloud</li>
+</ul>
+
+<p>Al eliminar la app se borran todos estos datos.</p>
+
+<h2>3. Entrenador IA (opcional — aquí los datos salen del dispositivo)</h2>
+
+<div class="box">
+<strong>Esta es la única función que envía datos fuera de tu iPhone.</strong> Viene desactivada y
+solo funciona si proporcionas tu propia clave de API de Anthropic.
+</div>
+
+<p>Si añades una clave de API de Anthropic (Claude) y pulsas <em>Generar análisis</em>, CS Swim
+envía lo siguiente a la API de Anthropic (<code>api.anthropic.com</code>) para producir ese
+análisis:</p>
+
+<ul>
+  <li>Tu nombre de pila y tu edad</li>
+  <li>Hasta tus 8 entrenamientos más recientes: fecha, distancia, duración, ritmo medio,
+      frecuencia cardíaca media y calorías</li>
+  <li>Tu objetivo semanal y el total de la semana actual</li>
+</ul>
+
+<p>Esto incluye información relacionada con la salud. Se envía <strong>únicamente</strong> en el
+momento en que solicitas un análisis de forma explícita, se usa <strong>únicamente</strong> para
+generar ese comentario de entrenamiento para ti, y viaja por una conexión cifrada HTTPS.</p>
+
+<p>El tratamiento de estos datos por parte de Anthropic se rige por su propia política de
+privacidad y por los términos de la cuenta de API cuya clave proporciones:
+<a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.
+El desarrollador de CS Swim nunca ve estos datos.</p>
+
+<p>Si nunca añades una clave de API, ningún dato sale de tu iPhone.</p>
+
+<h2>4. Informes que exportas</h2>
+
+<p>Los informes en PDF y las imágenes de entrenamiento para compartir se generan íntegramente en
+tu dispositivo. Van solo adonde tú decidas enviarlos mediante la hoja de compartir estándar de
+iOS. No se sube nada automáticamente.</p>
+
+<h2>5. Analítica y seguimiento</h2>
+
+<p>CS Swim <strong>no</strong> contiene analítica, publicidad, SDK de seguimiento ni rastreadores
+de terceros de ningún tipo. No usamos cookies ni identificadores de dispositivo para
+seguimiento.</p>
+
+<h2>6. Menores</h2>
+
+<p>CS Swim no está dirigida a menores de 13 años y no recopila datos de ellos conscientemente.</p>
+
+<h2>7. Cambios en esta política</h2>
+
+<p>Si esta política cambia, la versión actualizada se publicará en esta misma dirección con una
+nueva fecha de "última actualización".</p>
+
+<h2>8. Contacto</h2>
+
+<p>Consultas sobre esta política:
+<a href="mailto:csswmin@gmail.com">csswmin@gmail.com</a></p>
+
+</body>
+</html>
